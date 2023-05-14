@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito",sans-serif;
+}
+body{
+    background-color: #F1F8FF;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+    color: #FEA116;
+    padding-bottom: 10px;
+}
+button{
+    background-color: #FEA116;
+    color: aliceblue;
+    padding: 10px;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+#nav{
+    background-color: #0F172B;
+    height: 70px;
+    position: fixed;
+    width: 90%;
+    top: 0%;
+    z-index: 1;
+}
+.logo, .links, li{
+    display: inline-block;
+}
+.links{
+    margin-top: 10px;
+    width: 79%;
+    position: fixed;
+    right: -200px;
+}
+li{
+    padding: 5px 10px;
+}
+.links a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.logo img{
+    width: 45px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.logo h1{
+    color: #FEA116;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+.links li:hover a{
+    color: #FEA116;
+}
+.links li:hover button>a{
+    color: #FEA116;
+}
+button>a{
+    text-decoration: none;
+    color: #F1F8FF;
+}
+button:hover a , button:hover{
+    color: #FEA116;
+}
+button:hover {
+    background-color: #F1F8FF;
+}
+#nav button{
+    font-size: 20px;
+}
+
+#service{
+    width: 90%;
+    margin: 50px auto;
+
+}
+.serv{
+    display: inline-block;
+    box-shadow: 0 0 7px 7px rgb(169, 168, 168);
+    width: 16%;
+    margin: 20px;
+    padding: 30px;
+
+}
+.serv>h4{
+    padding: 13px 0;
+}
+.serv>p{
+    color: gray;
+}
+.serv img{
+    width: 50px;
+    border-radius: 50%;
+}
+.serv:hover{
+    background-color: #FEA116;
+    color: #F1F8FF;
+}
+.serv:hover p{
+    color: #F1F8FF;
+}
+
+#background{
+    background-image: url(../img/bg-hero1.jpg);
+    height: 770px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#background .content ,#background .img{
+    display: inline-block;
+    width: 43%;
+    padding-top: 250px;
+    padding-left: 90px;
+}
+#background .img{
+    float: right;
+    margin: auto;
+}
+#background .img img{
+    width: 380px;
+    height: 380px;
+}
+.content h1{
+    color: aliceblue;
+    font-size: 80px;
+}
+#background .content p{
+    color: aliceblue;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#aboutus{
+    width: 95%;
+    margin: 10px auto;
+    position: relative;
+}
+#aboutus .content, .photos,#aboutus .img, #aboutus .img2, #aboutus .img3{
+    display: inline-block;
+}
+#aboutus .content{
+    position: absolute;
+    top: 25%;
+    right: 40px;
+}
+.photos, #aboutus .content{
+    width: 45%;
+}
+.photos .img, .photos .img2,.photos .img3{
+    width: 35%;
+    margin: 10px 38px;
+}
+.photos .img img{
+    width: 275px;
+    height: 250px;
+    border-radius: 2px;
+}
+.photos .img2 img,.photos .img3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 2px;
+}
+.photos .img3{
+    position: relative;
+    bottom: 52px;
+    left: 75px;
+}
+#aboutus .content{
+    margin-left: 30px;
+}
+#aboutus p{
+    color: gray;
+    padding: 15px 0;
+}
+
+#menu {
+    margin: 60px auto;
+    width: 90%;
+}
+#menu .itemInfo,#menu .itemImg,#menu .item{
+    display: inline-block;
+}
+#menu h2,#menu h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#menu .itemInfo h3{
+    color: #0F172B;
+}
+#menu h3 span{
+    color: #FEA116;
+}
+#menu .itemImg{
+    border-radius: 2px;
+}
+#menu .item{
+    width: 45%;
+    margin: 10px auto;
+    position: relative;
+    padding: 10px;
+}
+#menu .itemInfo{
+    width: 75%;
+    text-align: left;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 10px;
+    line-height: 23px;
+}
+#menu .itemInfo hr{
+    /* border: 1px solid gray; */
+    background-color: gray;
+}
+#menu p{
+    color: gray;
+}
+
+#register  
+{
+    background-color: #0F172B;
+    margin: 10px auto;
+}
+.regImg , .form{
+    display: inline-block;
+}
+.regImg{
+    width: 50%;
+}
+.regImg img{
+    width: 700px;
+    height: 500px;
+}
+.form h2{
+    color: aliceblue;
+}
+.form{
+    width: 44%;
+    float: right;
+    line-height: 40px;
+    padding-top: 11PX;
+}
+.form input , select, textarea ,.form button{
+    padding: 15px;
+    margin: 10px 10px 10px 0;
+    width: 255px;
+    border: 2px solid #0F172B;
+    border-radius: 4PX;
+}
+
+.form input:focus-visible ,textarea:focus-visible, select:focus-visible{
+    outline: #FEA116;
+    border: 2px solid #FEA116;
+}
+textarea{
+    width: 522px;
+    height: 150px;
+}
+.form button{
+    width: 522px;
+    text-align: center;
+}
+
+
+#team{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    padding-top: 30px;
+}
+#team h3{
+    padding-bottom: 20px;
+}
+#team .chef{
+    display: inline-block;
+    padding-bottom: 10px;
+    margin: 20px;
+    color: gray;
+    width: 20%;
+}
+.chef img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.chef h3{
+    color: #0F172B;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.chef:hover{
+    
+    box-shadow: 1px 1px 10px #0F172B;
+}
+
+#contact{
+    width: 100%;
+    background-color: #0F172B;
+    color: aliceblue;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px 0;
+}
+.cont{
+    display: inline-block;
+    width: 20%;
+    margin: 10px auto;
+    padding-left: 10%;
+}
+#contact hr{
+    border: 1px solid gray;
+    background-color: gray;
+    width: 95%;
+    text-align: center;
+    margin:10px auto;
+}
+.cont span{
+    font-weight: bold;
+    font-size: 18px;
+    color: antiquewhite;
+}
+.end{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

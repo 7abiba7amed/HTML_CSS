@@ -1,0 +1,35 @@
+#sub_background{
+    background-image: url(../img/bg-hero1.jpg);
+    height: 440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 100px;
+}
+#sub_background h1{
+    padding-top: 170px;
+}
+#register {
+    margin-top: 100px;
+    color: aliceblue;
+}
+input.g{
+    width: 120px;
+}
+label{
+    font-weight: bold;
+}
+input.l{
+    width: 520px;
+    margin: 10px auto;
+}
+#contact{
+    margin-top: 100px;
+}
+form>p , a{
+    text-align: center;
+    color: gray;
+}
+#service h2,#service h3{
+    text-align: center;
+}
