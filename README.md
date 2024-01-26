@@ -14,3 +14,9 @@ Restaurant website contains the following pages:
 6- Menu Page
 
 7- Reservation Page
+
+https://github.com/7abiba7amed/HTML_CSS/assets/55756994/6ac1126f-5757-4cda-82eb-c0d0bbeeeaed
+
+
+
+
